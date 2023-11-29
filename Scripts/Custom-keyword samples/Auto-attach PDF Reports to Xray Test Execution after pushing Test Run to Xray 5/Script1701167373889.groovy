@@ -14,15 +14,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 CustomKeywords.'sample.Login.loginIntoApplicationWithGlobalVariable'()
-
+WebUI.takeFullPageScreenshot()
 WebUI.waitForElementPresent(findTestObject('Pages/Shop page/lnkShop'), GlobalVariable.waitPresentTimeout)
-
 WebUI.takeFullPageScreenshot()
-
+WebUI.takeFullPageScreenshot()
+WebUI.takeFullPageScreenshot()
 WebUI.click(findTestObject('Pages/Shop page/lnkShop'))
-
 WebUI.takeFullPageScreenshot()
-
+WebUI.takeFullPageScreenshot()
+WebUI.takeFullPageScreenshot()
 CustomKeywords.'sample.Shop.addToCartWithGlobalVariable'()
 WebUI.takeFullPageScreenshot()
 CustomKeywords.'sample.Checkout.CheckoutShop'(firstName,lastName,companyName, country, address, city, postCode, Phone)
@@ -41,63 +41,4 @@ CustomKeywords.'sample.Checkout.CheckoutShop'(firstName,lastName,companyName, co
 WebUI.takeFullPageScreenshot()
 CustomKeywords.'sample.Login.logoutFromApplication'()
 WebUI.takeFullPageScreenshot()
-CustomKeywords.'sample.Login.loginIntoApplicationWithGlobalVariable'()
-WebUI.takeFullPageScreenshot()
-WebUI.waitForElementPresent(findTestObject('Pages/Shop page/lnkShop'), GlobalVariable.waitPresentTimeout)
-WebUI.takeFullPageScreenshot()
-WebUI.click(findTestObject('Pages/Shop page/lnkShop'))
-WebUI.takeFullPageScreenshot()
-CustomKeywords.'sample.Shop.addToCartWithGlobalVariable'()
-WebUI.takeFullPageScreenshot()
-CustomKeywords.'sample.Checkout.CheckoutShop'(firstName,lastName,companyName, country, address, city, postCode, Phone)
-WebUI.takeFullPageScreenshot()
-
-CustomKeywords.'sample.Login.logoutFromApplication'()
-WebUI.takeFullPageScreenshot()
-
-CustomKeywords.'sample.Login.loginIntoApplicationWithGlobalVariable'()
-WebUI.takeFullPageScreenshot()
-
-WebUI.waitForElementPresent(findTestObject('Pages/Shop page/lnkShop'), GlobalVariable.waitPresentTimeout)
-WebUI.takeFullPageScreenshot()
-
-WebUI.click(findTestObject('Pages/Shop page/lnkShop'))
-WebUI.takeFullPageScreenshot()
-
-CustomKeywords.'sample.Shop.addToCartWithGlobalVariable'()
-WebUI.takeFullPageScreenshot()
-
-CustomKeywords.'sample.Checkout.CheckoutShop'(firstName,lastName,companyName, country, address, city, postCode, Phone)
-WebUI.takeFullPageScreenshot()
-
-CustomKeywords.'sample.Login.logoutFromApplication'()
-WebUI.takeFullPageScreenshot()
-
-CustomKeywords.'sample.Login.loginIntoApplicationWithGlobalVariable'()
-WebUI.takeFullPageScreenshot()
-
-WebUI.waitForElementPresent(findTestObject('Pages/Shop page/lnkShop'), GlobalVariable.waitPresentTimeout)
-WebUI.takeFullPageScreenshot()
-
-WebUI.click(findTestObject('Pages/Shop page/lnkShop'))
-WebUI.takeFullPageScreenshot()
-
-CustomKeywords.'sample.Shop.addToCartWithGlobalVariable'()
-WebUI.takeFullPageScreenshot()
-
-CustomKeywords.'sample.Checkout.CheckoutShop'(firstName,lastName,companyName, country, address, city, postCode, Phone)
-WebUI.takeFullPageScreenshot()
-
-CustomKeywords.'sample.Login.logoutFromApplication'()
-WebUI.takeFullPageScreenshot()
-
-CustomKeywords.'sample.Login.loginIntoApplicationWithGlobalVariable'()
-WebUI.takeFullPageScreenshot()
-
-WebUI.waitForElementPresent(findTestObject('Pages/Shop page/lnkShop'), GlobalVariable.waitPresentTimeout)
-WebUI.takeFullPageScreenshot()
-
-WebUI.click(findTestObject('Pages/Shop page/lnkShop'))
-WebUI.takeFullPageScreenshot()
-
 WebUI.closeBrowser()
